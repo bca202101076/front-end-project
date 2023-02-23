@@ -1,0 +1,41 @@
+table {
+    border-collapse: collapse;
+    border: 1px solid rgb(23, 92, 119);
+  }
+  th, td {
+    border: 1px solid rgb(2, 83, 116);
+    padding: 8px;
+  }
+  div {
+      margin-bottom: 20px;
+  }
+  body{
+      font-family:'Times New Roman', Times, serif ;
+  }
+
+  .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+  }
+  .container div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .container div input{
+    height: 25px;
+    width: 180px;
+    border-style:groove
+    border-color: black;
+  }
+
+  .container  button{
+    height: 25px;
+    width: 180px;
+    border-style: dotted;
+    border-color: brown;
+    background-color:skyblue;
+  }
